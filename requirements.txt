@@ -1,0 +1,16 @@
+# NovaAgent - Dependencias
+# Python 3.9 - 3.13
+
+# Motor de inferencia (esencial, sin Ollama)
+llama-cpp-python>=0.2.0
+
+# Interfaz gráfica
+PySide6>=6.5.0
+
+# Núcleo
+pydantic>=2.7,<3
+PyYAML>=6.0,<7
+requests>=2.31,<3
+
+# Monitoreo (opcional)
+psutil>=5.9,<6
